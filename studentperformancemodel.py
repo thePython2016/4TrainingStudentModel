@@ -6,7 +6,7 @@ model=pkl.load(open("model.pkl","rb"))
 encoder=pkl.load(open("encoder.pkl","rb"))
 Transformer=pkl.load(open("Transformer.pkl","rb"))
 
-st.title("Student Performance Model")
+st.title("Student Outcome Prediction Model")
 file=st.file_uploader("Upload File",type="csv")
 button=st.button("Predict Student Outcome")
 
